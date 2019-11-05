@@ -109,7 +109,7 @@ Fichero `pom.xml` resultante
 </project>
 ```
 
-Clase de configuración resultante (en)
+Clase de configuración resultante (en `src/main/java/es/uvigo/mei/pedidos/PedidosSpringApplication`)
 ```java
 package es.uvigo.mei.pedidos;
 
