@@ -196,7 +196,7 @@ Retornar a la carpeta principal
 ```
 pushd
 ```
-### Configurar _Datasoure`
+### Configurar _Datasource_
 
 Editar fichero `src/main/resources/application.properties` y establecer los valores de conexión a la BD
 ```
@@ -204,6 +204,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/pruebas_si
 spring.datasource.username=si
 spring.datasource.password=si
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.generate-ddl=true
 spring.jpa.properties.hibernate.show_sql=true
 spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 ```
